@@ -1,7 +1,10 @@
 package com.company;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import java.security.NoSuchAlgorithmException;
 
+@SpringBootApplication
 public class App {
 
     public static void main(String[] args) throws NoSuchAlgorithmException {
